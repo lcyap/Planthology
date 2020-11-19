@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll';
 
 //export becasue it's in a different file name than index.js
 export const Nav = styled.nav`
-    background: #000;
+    background: #DADED4;
     height: 80px;
     // margin-top: -80px;
     display: flex;
@@ -32,7 +32,7 @@ export const NavbarContainer = styled.div`
 
  //LinkR is react scrol and react router
 export const NavLogo = styled(LinkR)`
-    color: #fff;
+    color: #3C403D;
     justify-self: fkex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -55,7 +55,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #fff;
+        color: #3C403D;
 
     }
 `
@@ -78,7 +78,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkS)`
-    color: #fff;
+    color: #3C403D;
     display: flex;
     align-items:center;
     text-decoration: none;
@@ -87,7 +87,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active{
-        border-bottom: 3px solid #01bf71; 
+        border-bottom: 3px solid #A3BCB6; 
     }
 `
 
@@ -102,21 +102,21 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #01bf71;
+    background: #39603D;
     white-space: nowrap;
-    padding: 10px 22px;
+    padding: 10px 22px; // top/bottom, r/l
     color: #fff;
     font-size: 16px;
     outline: none;
     border: none;
     cursor: pointer;
-    transition: all 0.2s ease0in-out;
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
+        background: #A3BCB6;
+        color: #39603D;
     }
 `
 
