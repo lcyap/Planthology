@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-SmoothScroll/static/css/main.9b65e117.chunk.css",
+    "main.js": "/React-SmoothScroll/static/js/main.3dcca830.chunk.js",
+    "main.js.map": "/React-SmoothScroll/static/js/main.3dcca830.chunk.js.map",
+    "runtime-main.js": "/React-SmoothScroll/static/js/runtime-main.9781cf40.js",
+    "runtime-main.js.map": "/React-SmoothScroll/static/js/runtime-main.9781cf40.js.map",
+    "static/js/2.1a5f89fc.chunk.js": "/React-SmoothScroll/static/js/2.1a5f89fc.chunk.js",
+    "static/js/2.1a5f89fc.chunk.js.map": "/React-SmoothScroll/static/js/2.1a5f89fc.chunk.js.map",
+    "index.html": "/React-SmoothScroll/index.html",
+    "static/css/main.9b65e117.chunk.css.map": "/React-SmoothScroll/static/css/main.9b65e117.chunk.css.map",
+    "static/js/2.1a5f89fc.chunk.js.LICENSE.txt": "/React-SmoothScroll/static/js/2.1a5f89fc.chunk.js.LICENSE.txt",
+    "static/media/video.1b56ec7b.mp4": "/React-SmoothScroll/static/media/video.1b56ec7b.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9781cf40.js",
+    "static/js/2.1a5f89fc.chunk.js",
+    "static/css/main.9b65e117.chunk.css",
+    "static/js/main.3dcca830.chunk.js"
+  ]
+}
