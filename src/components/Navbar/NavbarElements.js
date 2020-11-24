@@ -6,7 +6,7 @@ import { Link as LinkS } from 'react-scroll';
 export const Nav = styled.nav`
     background: #DADED4;
     height: 80px;
-    // margin-top: -80px;
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ export const NavbarContainer = styled.div`
  //LinkR is react scrol and react router
 export const NavLogo = styled(LinkR)`
     color: #3C403D;
-    justify-self: fkex-start;
+    justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
     display: flex;
@@ -41,6 +41,7 @@ export const NavLogo = styled(LinkR)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Yeseva One', cursive;
 ` ;
 
 
@@ -84,6 +85,8 @@ export const NavLinks = styled(LinkS)`
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     cursor: pointer;
 
     &.active{
@@ -112,7 +115,8 @@ export const NavBtnLink = styled(LinkR)`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     &:hover{
         transition: all 0.2s ease-in-out;
         background: #A3BCB6;

@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo to='/'>
-                        lealogo
+                        Planthology
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars /> 

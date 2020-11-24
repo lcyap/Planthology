@@ -16,7 +16,25 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
 
-    //add :before styles
+    :before {
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background: linear-gradient(
+            180deg,
+            rgba(0,0,0,0.2) 0%,
+            rgba(0,0,0,0.6) 100%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,0.2) 0%,
+            transparent 100%
+        );
+        z-index: 2;
+    }
 `
 
 export const HeroBg = styled.div`
@@ -36,6 +54,7 @@ export const VideoBg = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
+  //  opacity: 50%;
     
 `
 
@@ -51,9 +70,11 @@ export const HeroContent = styled.div`
 `
 
 export const HeroH1 = styled.h1`
-    color: #3c403d;
+    color:#daded4;
     font-size: 49px;
     text-align: center;
+    font-family: 'Yeseva One', cursive;
+    
 
     @media screen and (max-width: 768px){
         font-size: 40px;
@@ -66,11 +87,11 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
     margin-top: 24px;
-    color: #3c403d;
-    font-size: 24x;
+    color: #daded4;
+    font-size: 24px;
     text-align: center;
     max-width: 600px;
-
+   
     @media screen and (max-width: 768px){
         font-size: 24px;
     }

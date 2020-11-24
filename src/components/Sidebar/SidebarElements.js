@@ -23,7 +23,7 @@ export const SidebarContainer = styled.aside`
     left: 0;
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-    top: ${({ isOpen }) =>(isOpen ? '0' : '100%' )};
+    top: ${({ isOpen }) =>(isOpen ? '0' : '-100%' )};
     
 
 `
@@ -66,6 +66,8 @@ export const SidebarLink = styled(LinkS)`
     transition: 0.2s ease-in-out;
     color: #3C403D;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 
     &:hover{
         color: #48784d;
@@ -90,7 +92,8 @@ export const SidebarRoute = styled(LinkR)`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     &:hover{
         transition: all 0.2s ease-in-out;
         background: #fff;
