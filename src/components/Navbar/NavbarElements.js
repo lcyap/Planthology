@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll';
 
 //export becasue it's in a different file name than index.js
 export const Nav = styled.nav`
-    background: #DADED4;
+    background: ${({scrollNav})=> (scrollNav ? '#39603d' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -14,7 +14,7 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 10;
-
+    transition: 0.8s all ease;
     @media screen and (max-width: 960px){
         transition: 0.8s all ease;
     }
@@ -32,14 +32,14 @@ export const NavbarContainer = styled.div`
 
  //LinkR is react scrol and react router
 export const NavLogo = styled(LinkR)`
-    color: #3C403D;
+    color: #daded4;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     margin-left: 24px;
-    font-weight: bold;
+   
     text-decoration: none;
     font-family: 'Yeseva One', cursive;
 ` ;
@@ -56,7 +56,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #3C403D;
+        color: #daded4;
 
     }
 `
@@ -79,7 +79,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkS)`
-    color: #3C403D;
+    color: #daded4;
     display: flex;
     align-items:center;
     text-decoration: none;
@@ -88,7 +88,7 @@ export const NavLinks = styled(LinkS)`
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     cursor: pointer;
-
+    
     &.active{
         border-bottom: 3px solid #A3BCB6; 
     }
@@ -105,10 +105,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #39603D;
+    background: #9dc88d;
     white-space: nowrap;
     padding: 10px 22px; // top/bottom, r/l
-    color: #fff;
+    color: #39603d;
     font-size: 16px;
     outline: none;
     border: none;
@@ -116,6 +116,7 @@ export const NavBtnLink = styled(LinkR)`
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
     &:hover{
         transition: all 0.2s ease-in-out;

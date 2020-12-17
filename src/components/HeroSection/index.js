@@ -14,7 +14,7 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src= {Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>P L A N T H O L O G Y</HeroH1>
+                <HeroH1>Planthology</HeroH1>
                 <HeroP>
                     Indoor Plants Delivered to your Door
                 </HeroP>
@@ -22,6 +22,7 @@ const HeroSection = () => {
                     <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true"
+                    smooth={true} duration={500} spy={true} exact='true' offset={-80}
                     >
                         Get Started {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>

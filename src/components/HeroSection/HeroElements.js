@@ -51,10 +51,9 @@ export const HeroBg = styled.div`
 export const VideoBg = styled.video`
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
-  //  opacity: 50%;
+    opacity: 70%;
     
 `
 
@@ -91,6 +90,7 @@ export const HeroP = styled.p`
     font-size: 24px;
     text-align: center;
     max-width: 600px;
+    font-weight:bold;
    
     @media screen and (max-width: 768px){
         font-size: 24px;
