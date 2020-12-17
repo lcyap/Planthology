@@ -21,7 +21,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+<<<<<<< HEAD
     
+=======
+  
+>>>>>>> 070b5be785e9410d70f47bf539853d895a5dc240
   },
   "eslintConfig": {
     "extends": [
